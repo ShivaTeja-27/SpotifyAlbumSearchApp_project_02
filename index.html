@@ -16,7 +16,10 @@
   <title>spotify</title>
 </head>
 
-<body class="MainpageBody">
+<body class="MainpageBody" onload="myFunction()">
+
+  <div id="loading" class="loader"></div>
+
   <div class="topnav">
     <a href="./index.html"><img id="logoIMAGE" src="./assets/spotify.png.png" alt="logo" /></a>
     <a class="active" href="./index.html">Spotify!!! Clone</a>
@@ -50,7 +53,12 @@
 
   </div>
 
-
+<script>
+  var preloader = document.getElementById('loading');
+function myFunction(){
+    preloader.style.display = 'none';
+}
+</script>
   <script src="index.js"></script>
 </body>
 

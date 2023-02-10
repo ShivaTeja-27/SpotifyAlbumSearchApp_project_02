@@ -11,7 +11,7 @@ searchbtn.addEventListener('click', (e) => {
     const url = `https://api.spotify.com/v1/search?query=${textbox}&type=album&market=IN&limit=20&offset=5`
     xhr.open('GET', url)
 
-    xhr.setRequestHeader('Authorization', 'Bearer BQA_6Rf9SR8R4fYB2Fb7cVXNEPqBn0H8jxMmrfa8UWYjf_cPF2c-_QLfpOuu-jpJnzrDWlLpnmy76tUiDSjsinzjb1qBx4od7TiKR_xcSZyCrRmqaW1z')
+    xhr.setRequestHeader('Authorization', 'Bearer BQC4d6o2lTgcUI3QKz2pC7Itfp-1bacEB1DNz25OcWBvA-UelSn8p6A0ZycRW8tWPQzNnd8Ra8SFlLCg-8kIsybmR64vVUUnJiBMl6vniT0vzTEPX2N6')
     xhr.setRequestHeader('Accept', 'application/json')
     xhr.setRequestHeader('Content-Type', 'application/json')
 
@@ -61,7 +61,7 @@ searchbtn.addEventListener('click', (e) => {
                     const newxhr = new XMLHttpRequest()
                     newxhr.open('GET', newurl, true)
 
-                    newxhr.setRequestHeader('Authorization', 'Bearer BQCV7holgz19AeVLFnc0E0rtdcT_u3xu626UUAyKvEYHS6j4kLoX6_HrkWp6cS8Hlm6yzY2bF5MQOIImDzE')
+                    newxhr.setRequestHeader('Authorization', 'Bearer BQC4d6o2lTgcUI3QKz2pC7Itfp-1bacEB1DNz25OcWBvA-UelSn8p6A0ZycRW8tWPQzNnd8Ra8SFlLCg-8kIsybmR64vVUUnJiBMl6vniT0vzTEPX2N6')
                     newxhr.setRequestHeader('Accept', 'application/json')
                     newxhr.setRequestHeader('Content-Type', 'application/json')
 

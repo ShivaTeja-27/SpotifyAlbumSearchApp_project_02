@@ -93,7 +93,6 @@ searchbtn.addEventListener('click', (e) => {
                             <p> Artist: ${newresponse.tracks.items[index].artists[index].name}</p>
                             </div>
 
-             
                         </div>
                         `
                                 document.querySelector('#alb-content').innerHTML = albumoutput

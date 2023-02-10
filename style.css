@@ -1,5 +1,7 @@
 body {
-  background-color: aliceblue;
+  /* background-color: rgb(0, 104, 69); */
+  background-image: url(./assets/backgroundpic.jpg);
+
 }
 
 #logoIMAGE {
@@ -20,7 +22,6 @@ body {
   height: 100px;
   border: 20px;
   border-color: black;
-
 
 }
 
@@ -116,7 +117,7 @@ body {
 #image {
 
   display: flex;
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(255, 255, 255);
 }
 
 #backsideCard {
@@ -129,6 +130,7 @@ body {
   width: 300px;
   height: auto;
   font-size: 20px;
+  background-color: rgb(248, 248, 248);
 }
 
 

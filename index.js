@@ -11,14 +11,10 @@ searchbtn.addEventListener('click', (e) => {
     const url = `https://api.spotify.com/v1/search?query=${textbox}&type=album&market=IN&limit=20&offset=5`
     xhr.open('GET', url)
 
-    xhr.setRequestHeader('Authorization', 'Bearer BQA1W6zofHBL5FyBlwp4WzUjNvyUtXAJgKamZ5SG06nELkHr127r4IVZ03OOzTpJ9uTg6W3yQdQLi9x-PyXRUxAsRrMITMoSBUh7qfbsx2UzPaD8u5O8')
+    xhr.setRequestHeader('Authorization', 'Bearer BQA_6Rf9SR8R4fYB2Fb7cVXNEPqBn0H8jxMmrfa8UWYjf_cPF2c-_QLfpOuu-jpJnzrDWlLpnmy76tUiDSjsinzjb1qBx4od7TiKR_xcSZyCrRmqaW1z')
     xhr.setRequestHeader('Accept', 'application/json')
     xhr.setRequestHeader('Content-Type', 'application/json')
 
-
-    // var albumnav
-    // albumnav =`<h1 class="container text-white">Albums:</h1>`
-    // document.querySelector('#song-details').innerHTML += albumnav
 
     xhr.onreadystatechange = () => {
         if (xhr.readyState === 4 && xhr.status === 200) {
